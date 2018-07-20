@@ -1,25 +1,40 @@
-# AMWA NMOS Event and Tally Specification
+# AMWA NMOS Event and Tally Specification (IS-07)
 
-This repository contains details of this AMWA Specification, includi
+## GitHub Pages documentation
 
-## Getting started
+If you are reading this you are on the gh-pages branch, which is used to generate the documentation from the master and other branches, and from releases.  These are served at https://amwa-tv.github.io/nmos-event-tally/.
 
-Readers are advised to be familiar with:
-* The JT-NM Reference Architecture (http://jt-nm.org/)
-* The [overview of Networked Media Open Specifications](https://amwa-tv.github.io/nmos)
+## Generating the documentation
 
-Readers should read the [documentation](docs/) in this repository.
+_Note: not all of this applies yet, but leaving it in for when it does...
 
-HTML renders of this repo will be made available through [GitHub Pages](https://amwa-tv.github.io/nmos/nmos-event-tally)
+If you make any changes to the repo please do the following:
 
-## Releases
+Make sure you have the correct version for raml2html installed. For RAML 1.0 you should use the latest version:
 
-It is recommended that the tagged releases are used as a reference for development as opposed to the 'master' or development branches of this repository.
+``sudo npm install -g raml2html``
 
-Each version of the specification is available under a v&lt;#MAJOR&gt;.&lt;#MINOR&gt; tag such as 'v1.0'. Once a specification has been released, any updates to its documentation and schemas which do not modify the specification will be made available via a v&lt;#MAJOR&gt;.&lt;#MINOR&gt;.&lt;#UPDATE&gt; tag such as 'v1.0.1'.
+_Note: recent versions of raml2html may hang if you use them directly (or via generateHTML) on the RAML files, due to the location of schema files.  The procedure below includes a workaround until we resolve this._
 
+Clone this repo (if you haven't already), checkout the gh-pages branch and make:
 
-* README.md -- This file
-* [docs](docs/) -- Documentation
-* [LICENSE](LICENSE) -- Licenses for software and text documents
-* [NOTICE](NOTICE) -- Disclaimer
+``git checkout gh-pages``
+
+``make``
+
+This runs scripts to:
+- clone the repo from AMWA's GitHub
+- for each branch and release (with some exceptions) extract documentation, APIs and schemas
+  - making HTML renders of the RAML APIs
+- for each branch and release create indexes for the documentation, APIs and schemas
+- make links to what will later be the HTML renders of the Markdown documentation
+
+## Updating AMWA's GitHub
+
+You can push the updated documentation to AMWA's GitHub with.
+
+``make push``
+
+Admins must be to do this after merging PRs etc (until this is automated with CircleCI at some point).
+
+This then triggers a build of the GitHub Pages. This happens on GitHub's servers, using Jekyll to render the HTML.  This includes rendering the Markdown content, but we have to do the RAML ourselves.  
