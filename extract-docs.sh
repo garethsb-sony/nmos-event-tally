@@ -12,18 +12,30 @@ function extract {
             cd APIs
                 echo "NB: including workaround for how v6 of raml2html deals with \$ref and schemas/ dir"
                 perl -pi.orig -e 's=("\$ref": ")(.*)(\.json)=$1schemas/$2$3=' schemas/*.json
-                # hack as IS-07 doesnt have TODO: fix this!
-                /tmp/generateHTML
+                for i in *.raml; do
+                    echo "Generating HTML from $i..."
+                    raml2html "$i" > "${i%%.raml}.html"
+                done
                 for i in schemas/*.json.orig; do
                     mv "$i" "${i%%.orig}"
                 done
                 mkdir "../../$target_dir/html-APIs"
                 mv *.html "../../$target_dir/html-APIs/"
-                mkdir "../../$target_dir/html-APIs/schemas"
-                cp schemas/*.json "../../$target_dir/html-APIs/schemas"
+                if [ -d schemas ]; then
+                    echo "Linting schemas..."
+                    jsonlint -v schemas/*.json
+                    echo "Copying schemas..."
+                    mkdir "../../$target_dir/html-APIs/schemas"
+                    cp schemas/*.json "../../$target_dir/html-APIs/schemas"
+                fi
                 cd ..
         fi
-    [ -d examples ] && cp -r examples "../$target_dir"
+        if [ -d examples ]; then
+            echo "Linting examples..."
+            jsonlint -v examples/*.json
+            echo "Copying examples..."
+            cp -r examples "../$target_dir"
+        fi
     cd ..
 
 }

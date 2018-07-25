@@ -9,6 +9,7 @@
    - [docs/5.0 Rest_api_late_joiners](branches/master/docs/5.0_Rest_api_late_joiners.md)
 
 ## APIs for master
+ - [EventsAPI](branches/master/html-APIs/EventsAPI.html)
 
 ### [JSON Schemas](branches/master/html-APIs/schemas/)
 
