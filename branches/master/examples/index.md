@@ -1,0 +1,16 @@
+## Examples
+
+ - [eventsapi-v1.0-base-get-200](eventsapi-v1.0-base-get-200.json)
+ - [eventsapi-v1.0-sourceid-get-200](eventsapi-v1.0-sourceid-get-200.json)
+ - [eventsapi-v1.0-sources-get-200](eventsapi-v1.0-sources-get-200.json)
+ - [eventsapi-v1.0-state-boolean-get-200](eventsapi-v1.0-state-boolean-get-200.json)
+ - [eventsapi-v1.0-state-number-get-200](eventsapi-v1.0-state-number-get-200.json)
+ - [eventsapi-v1.0-state-number-rational-get-200](eventsapi-v1.0-state-number-rational-get-200.json)
+ - [eventsapi-v1.0-state-string-get-200](eventsapi-v1.0-state-string-get-200.json)
+ - [eventsapi-v1.0-type-boolean-enum-get-200](eventsapi-v1.0-type-boolean-enum-get-200.json)
+ - [eventsapi-v1.0-type-boolean-get-200](eventsapi-v1.0-type-boolean-get-200.json)
+ - [eventsapi-v1.0-type-number-enum-get-200](eventsapi-v1.0-type-number-enum-get-200.json)
+ - [eventsapi-v1.0-type-number-get-200](eventsapi-v1.0-type-number-get-200.json)
+ - [eventsapi-v1.0-type-number-measurement-get-200](eventsapi-v1.0-type-number-measurement-get-200.json)
+ - [eventsapi-v1.0-type-string-enum-get-200](eventsapi-v1.0-type-string-enum-get-200.json)
+ - [eventsapi-v1.0-type-string-get-200](eventsapi-v1.0-type-string-get-200.json)

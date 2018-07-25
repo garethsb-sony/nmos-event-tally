@@ -12,7 +12,8 @@ function extract {
             cd APIs
                 echo "NB: including workaround for how v6 of raml2html deals with \$ref and schemas/ dir"
                 perl -pi.orig -e 's=("\$ref": ")(.*)(\.json)=$1schemas/$2$3=' schemas/*.json
-                ./generateHTML
+                # hack as IS-07 doesnt have TODO: fix this!
+                /tmp/generateHTML
                 for i in schemas/*.json.orig; do
                     mv "$i" "${i%%.orig}"
                 done
