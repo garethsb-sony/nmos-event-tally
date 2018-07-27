@@ -22,15 +22,18 @@ for b_or_t in branches tags; do
                     underscore_space_doc="${doc// /_}"
                     mv "$doc" "$underscore_space_doc"
 
-                    # Top level documents have numbers ending in '.0'
-                    match_top_level='^docs/[1-9][0-9]*\.0\. '
+                    # Top level documents have numbers ending in '.0' or '.0.'
+                    match_top_level='^docs/[1-9][0-9]*\.0\.? '
                     if [[ "$doc" =~ $match_top_level ]]; then
                         linktext="${no_ext#* }"
                         echo " - [$linktext]($underscore_space_doc)" >> "$INDEX"
                     else
                         # Removing the top-level part of lower-level link texts
                         # that is the part up to the hyphen and following space
-                        linktext="${no_ext#* - }"
+                        # linktext="${no_ext#* - }"
+
+                        # IS-07 currently has a different form so:
+                        linktext="${no_ext#* }" 
                         echo "   - [$linktext]($underscore_space_doc)" >> "$INDEX"
                     fi
                 done

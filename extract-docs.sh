@@ -6,15 +6,18 @@ function extract {
     echo "Extracting documentation from $checkout into $target_dir"
     mkdir "$target_dir"
     cd source-repo
+        echo "Checking out $checkout..."
         git checkout "$checkout"
-        [ -d docs ] && cp -r docs "../$target_dir"
+        if [ -d docs ]; then
+            cp -r docs "../$target_dir"
+        fi
         if [ -d APIs ]; then
             cd APIs
                 echo "NB: including workaround for how v6 of raml2html deals with \$ref and schemas/ dir"
                 perl -pi.orig -e 's=("\$ref": ")(.*)(\.json)=$1schemas/$2$3=' schemas/*.json
                 for i in *.raml; do
                     echo "Generating HTML from $i..."
-                    raml2html "$i" > "${i%%.raml}.html"
+                    raml2html $i > "${i%%.raml}.html"
                 done
                 for i in schemas/*.json.orig; do
                     mv "$i" "${i%%.orig}"
