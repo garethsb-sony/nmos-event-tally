@@ -30,10 +30,7 @@ for b_or_t in branches tags; do
                     else
                         # Removing the top-level part of lower-level link texts
                         # that is the part up to the hyphen and following space
-                        # linktext="${no_ext#* - }"
-
-                        # IS-07 currently has a different form so:
-                        linktext="${no_ext#* }" 
+                        linktext="${no_ext#* - }"
                         echo "   - [$linktext]($underscore_space_doc)" >> "$INDEX"
                     fi
                 done
