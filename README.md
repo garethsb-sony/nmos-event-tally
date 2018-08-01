@@ -1,4 +1,4 @@
-# AMWA NMOS Event and Tally Specification (future IS-07) [Work In Progress]
+# [Work In Progress] AMWA IS-07 NMOS Event and Tally Specification
 
 ## GitHub Pages documentation
 
