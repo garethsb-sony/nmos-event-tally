@@ -6,15 +6,11 @@ If you are reading this you are on the gh-pages branch, which is used to generat
 
 ## Generating the documentation
 
-_Note: not all of this applies yet, but leaving it in for when it does...
-
 If you make any changes to the repo please do the following:
 
 Make sure you have the correct version for raml2html installed. For RAML 1.0 you should use the latest version:
 
 ``sudo npm install -g raml2html``
-
-_Note: recent versions of raml2html may hang if you use them directly (or via generateHTML) on the RAML files, due to the location of schema files.  The procedure below includes a workaround until we resolve this._
 
 Clone this repo (if you haven't already), checkout the gh-pages branch and make:
 
