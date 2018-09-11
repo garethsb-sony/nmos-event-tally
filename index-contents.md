@@ -20,5 +20,5 @@
 
 [master](branches/master/)
 
-## Tags
+## Tags (Releases)
 
