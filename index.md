@@ -15,13 +15,14 @@ Once published, the links immediately below will be for the _most recent approve
 # Documentation for master
 
 - [Overview](branches/master/docs/1.0._Overview.md)
-- [Event_types](branches/master/docs/2.0._Event_types.md)
-- [Core_models](branches/master/docs/3.0._Core_models.md)
-- [Transports](branches/master/docs/4.0._Transports.md)
-  - [MQTT](branches/master/docs/4.1._Transport_-_MQTT.md)
-  - [Websocket](branches/master/docs/4.2._Transport_-_Websocket.md)
-  - [AMQP](branches/master/docs/4.3._Transport_-_AMQP.md)
-- [Rest_api_late_joiners](branches/master/docs/5.0._Rest_api_late_joiners.md)
+- [Message_types](branches/master/docs/2.0._Message_types.md)
+- [Event_types](branches/master/docs/3.0._Event_types.md)
+- [Core_models](branches/master/docs/4.0._Core_models.md)
+- [Transports](branches/master/docs/5.0._Transports.md)
+  - [MQTT](branches/master/docs/5.1._Transport_-_MQTT.md)
+  - [Websocket](branches/master/docs/5.2._Transport_-_Websocket.md)
+- [Event_and_tally_rest_api](branches/master/docs/6.0._Event_and_tally_rest_api.md)
+- [Measurement_units_guidelines](branches/master/docs/7.0._Measurement_units_guidelines.md)
 
 ## APIs for master
 

@@ -3,6 +3,7 @@
 ## JSON Schemas
 
 - [base](base.json)
+- [command_health](command_health.json)
 - [error](error.json)
 - [event](event.json)
 - [event_boolean](event_boolean.json)
@@ -10,6 +11,9 @@
 - [event_number](event_number.json)
 - [event_object](event_object.json)
 - [event_string](event_string.json)
+- [message_connection_lost](message_connection_lost.json)
+- [message_health](message_health.json)
+- [message_shutdown_reboot](message_shutdown_reboot.json)
 - [number](number.json)
 - [source](source.json)
 - [sources](sources.json)

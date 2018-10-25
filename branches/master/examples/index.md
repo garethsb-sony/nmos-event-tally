@@ -3,6 +3,11 @@
 ## Examples
 
 - [eventsapi-v1.0-base-get-200](eventsapi-v1.0-base-get-200.json)
+- [eventsapi-v1.0-connection-lost-message](eventsapi-v1.0-connection-lost-message.json)
+- [eventsapi-v1.0-health-command](eventsapi-v1.0-health-command.json)
+- [eventsapi-v1.0-health-message](eventsapi-v1.0-health-message.json)
+- [eventsapi-v1.0-reboot-message](eventsapi-v1.0-reboot-message.json)
+- [eventsapi-v1.0-shutdown-message](eventsapi-v1.0-shutdown-message.json)
 - [eventsapi-v1.0-sourceid-get-200](eventsapi-v1.0-sourceid-get-200.json)
 - [eventsapi-v1.0-sources-get-200](eventsapi-v1.0-sources-get-200.json)
 - [eventsapi-v1.0-state-boolean-get-200](eventsapi-v1.0-state-boolean-get-200.json)
