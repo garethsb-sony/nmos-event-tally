@@ -15,6 +15,8 @@
 - [message_health](message_health.json)
 - [message_shutdown_reboot](message_shutdown_reboot.json)
 - [number](number.json)
+- [receiver_transport_params_ext](receiver_transport_params_ext.json)
+- [sender_transport_params_ext](sender_transport_params_ext.json)
 - [source](source.json)
 - [sources](sources.json)
 - [type](type.json)

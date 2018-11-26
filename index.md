@@ -15,14 +15,14 @@ Once published, the links immediately below will be for the _most recent approve
 # Documentation for v1.0-dev
 
 - [Overview](branches/v1.0-dev/docs/1.0._Overview.md)
-- [Message_types](branches/v1.0-dev/docs/2.0._Message_types.md)
-- [Event_types](branches/v1.0-dev/docs/3.0._Event_types.md)
-- [Core_models](branches/v1.0-dev/docs/4.0._Core_models.md)
+- [Message types](branches/v1.0-dev/docs/2.0._Message_types.md)
+- [Event types](branches/v1.0-dev/docs/3.0._Event_types.md)
+- [Core models](branches/v1.0-dev/docs/4.0._Core_models.md)
 - [Transports](branches/v1.0-dev/docs/5.0._Transports.md)
   - [MQTT](branches/v1.0-dev/docs/5.1._Transport_-_MQTT.md)
   - [Websocket](branches/v1.0-dev/docs/5.2._Transport_-_Websocket.md)
-- [Event_and_tally_rest_api](branches/v1.0-dev/docs/6.0._Event_and_tally_rest_api.md)
-- [Measurement_units_guidelines](branches/v1.0-dev/docs/7.0._Measurement_units_guidelines.md)
+- [Event and tally rest api](branches/v1.0-dev/docs/6.0._Event_and_tally_rest_api.md)
+- [Measurement units guidelines](branches/v1.0-dev/docs/7.0._Measurement_units_guidelines.md)
 
 ## APIs for v1.0-dev
 

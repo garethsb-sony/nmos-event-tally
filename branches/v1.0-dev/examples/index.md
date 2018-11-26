@@ -2,6 +2,10 @@
 
 ## Examples
 
+- [connectionapi-v1.1-receiver-active-get-mqtt-200](connectionapi-v1.1-receiver-active-get-mqtt-200.json)
+- [connectionapi-v1.1-receiver-active-get-websocket-200](connectionapi-v1.1-receiver-active-get-websocket-200.json)
+- [connectionapi-v1.1-sender-active-get-mqtt-200](connectionapi-v1.1-sender-active-get-mqtt-200.json)
+- [connectionapi-v1.1-sender-active-get-websocket-200](connectionapi-v1.1-sender-active-get-websocket-200.json)
 - [eventsapi-v1.0-base-get-200](eventsapi-v1.0-base-get-200.json)
 - [eventsapi-v1.0-connection-lost-message](eventsapi-v1.0-connection-lost-message.json)
 - [eventsapi-v1.0-health-command](eventsapi-v1.0-health-command.json)
