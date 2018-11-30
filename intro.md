@@ -1,4 +1,4 @@
-# [Work In Progress] AMWA IS-07 NMOS Event and Tally Specification
+# AMWA IS-07 NMOS Event and Tally Specification
 
 AMWA has reserved IS-07 for an NMOS Specification for event and tally
 
