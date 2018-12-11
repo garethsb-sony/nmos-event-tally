@@ -12,30 +12,13 @@ The formal IS-07 Specification will be provided in [this GitHub repository](http
 
 Once published, the links immediately below will be for the _most recent approved release_ of the Specification (which may be earlier than what is shown by the default branch on the GitHub repo). Until then it shows the most approriate working branch of the repo. Links to other releases (tags) and other branches appear later in the page.
 
-# Documentation for v1.0-dev
-
-- [Overview](branches/v1.0-dev/docs/1.0._Overview.md)
-- [Message types](branches/v1.0-dev/docs/2.0._Message_types.md)
-- [Event types](branches/v1.0-dev/docs/3.0._Event_types.md)
-- [Core models](branches/v1.0-dev/docs/4.0._Core_models.md)
-- [Transports](branches/v1.0-dev/docs/5.0._Transports.md)
-  - [MQTT](branches/v1.0-dev/docs/5.1._Transport_-_MQTT.md)
-  - [Websocket](branches/v1.0-dev/docs/5.2._Transport_-_Websocket.md)
-- [Event and tally rest api](branches/v1.0-dev/docs/6.0._Event_and_tally_rest_api.md)
-- [Measurement units guidelines](branches/v1.0-dev/docs/7.0._Measurement_units_guidelines.md)
-
-## APIs for v1.0-dev
-
-- [EventsAPI](branches/v1.0-dev/html-APIs/EventsAPI.html)
-
-### [JSON Schemas](branches/v1.0-dev/html-APIs/schemas/)
-
-
-### [Examples](branches/v1.0-dev/examples/)
-
 
 ## Branches
 
-[v1.0-dev](branches/v1.0-dev/)
+[v1.0.x](branches/v1.0.x/)
+
+[v1.1-dev](branches/v1.1-dev/)
 
 ## Tags (Releases)
+
+[v1.0](tags/v1.0/)
