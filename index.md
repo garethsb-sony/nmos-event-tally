@@ -10,7 +10,29 @@ See [here](https://amwa-tv.github.io/nmos) for an overview of NMOS specifcations
 
 The formal IS-07 Specification will be provided in [this GitHub repository](https://github.com/AMWA-TV/nmos-event-tally). These pages provide supporting documentation and HTML renders of the APIs (which for previous AMWA ;spspecificatis have been RAML and JSON Schema).
 
-Once published, the links immediately below will be for the _most recent approved release_ of the Specification (which may be earlier than what is shown by the default branch on the GitHub repo). Until then it shows the most approriate working branch of the repo. Links to other releases (tags) and other branches appear later in the page.
+Once published, the links immediately below will be for the _most recent approved release_ of the Specification (which may be earlier than what is shown by the default branch on the GitHub repo). Until then it shows the most approriate working branch of the repo. Links to [other releases (tags)](tags/) and [other branches](branches/) appear later in the page, or from the header.
+
+
+# Documentation for v1.0
+
+- [Overview](tags/v1.0/docs/1.0._Overview.md)
+- [Message types](tags/v1.0/docs/2.0._Message_types.md)
+- [Event types](tags/v1.0/docs/3.0._Event_types.md)
+- [Core models](tags/v1.0/docs/4.0._Core_models.md)
+- [Transports](tags/v1.0/docs/5.0._Transports.md)
+  - [MQTT](tags/v1.0/docs/5.1._Transport_-_MQTT.md)
+  - [Websocket](tags/v1.0/docs/5.2._Transport_-_Websocket.md)
+- [Event and tally rest api](tags/v1.0/docs/6.0._Event_and_tally_rest_api.md)
+- [Measurement units guidelines](tags/v1.0/docs/7.0._Measurement_units_guidelines.md)
+
+## APIs for v1.0
+
+- [EventsAPI](tags/v1.0/html-APIs/EventsAPI.html)
+
+### [JSON Schemas](tags/v1.0/html-APIs/schemas/)
+
+
+### [Examples](tags/v1.0/examples/)
 
 
 ## Branches

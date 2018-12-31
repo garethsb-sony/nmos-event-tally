@@ -2,4 +2,4 @@
 
 # APIs for v1.0
 
-- [EventsAPI](html-APIs/EventsAPI.html)
+- [EventsAPI](EventsAPI.html)
